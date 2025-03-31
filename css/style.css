@@ -301,7 +301,12 @@ margin: 0 16px;
   padding: 0px;
 }
   */
-
+.ul-apps {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin: 0 16px;
+}
 .apps-container{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -310,10 +315,11 @@ margin: 0 16px;
 .app {
   margin-bottom: 8px;
 }
-.logo-two{
+/*.logo-two{
   display: inline-block;
   margin-bottom: 16px;
 }
+  */
 .with{
   max-width: 264px ;
 }
@@ -428,9 +434,15 @@ height:40px;
   align-items: baseline;
 }
   */
-.footer-container > :first-child {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+/*.footer-container > :first-child {
   margin-right: 120px
 }
+  */
 
 .footer-media-p {
   font-weight: 500;
@@ -444,9 +456,10 @@ height:40px;
   gap: 16px;
 }
 
-.input-list {
+/*.input-list {
   margin-left: 84px;
 }
+  */
 .subscribe {
   margin-bottom: 16px;
   font-weight: 500;
@@ -708,4 +721,30 @@ fill: #F4F4FD;
    .work > img {
     width: 100%;
    }
+   .apps-container > .textfre {
+    text-align: start;
+   }
+   .footer-container > div {
+    display: flex;
+    flex-direction: column;
+   }
+   .logo-two{
+    text-align: center;
+   }
+.footer-media-p{
+  text-align: center;
+}
+.button-form{
+  display: block;
+  margin: 0 auto;
+  
+}
+.subscribe{
+  text-align: center;
+}
+.label-style {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
 }
