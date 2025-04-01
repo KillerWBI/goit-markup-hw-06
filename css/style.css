@@ -98,7 +98,8 @@ color: #2e2f42;
 }
 .order{
   background-color: #2e2f42 ;
-  padding: 188px 0;
+  /*padding: 188px 0;*/
+  padding: 72px 52px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -106,8 +107,10 @@ color: #2e2f42;
   max-width: 1440px;
   margin: 0 auto;
 }
+
 .effective {
-  font-size: 56px;
+  /*font-size: 56px;*/
+  font-size: 36px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -368,7 +371,7 @@ margin: 0 16px;
   border: 1px solid #8e8f99; 
   margin-bottom: 8px;
 }
-  
+
 .media{
   display: flex;
   justify-content: center;
@@ -746,5 +749,10 @@ fill: #F4F4FD;
   display: flex;
   justify-content: center;
   margin-bottom: 16px;
+}
+.icon-container {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
 }
 }
