@@ -755,4 +755,19 @@ fill: #F4F4FD;
   visibility: hidden;
   position: absolute;
 }
+.button-menu-close {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6px;
+  width: 24px;
+  height: 24px;
+}
+.element-button {
+  border-radius: 5px;
+  border: none;
+width: 16px;
+height: 2.4px;
+
+background-color: rgba(47, 47, 55, 1);
+}
 }
