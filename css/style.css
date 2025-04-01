@@ -151,10 +151,20 @@ color: #2e2f42;
   margin-bottom: 8px;
 text-align: center;
 }
+.li-list-content > .textfre {
+  font-weight: 700;
+  font-size: 36px;
+}
 .paragraf{
-  line-height: 1.5 ;
+  line-height: 1.5; 
   letter-spacing: 0.02em;
   color: #434455 ;
+
+}
+.li-list-content > .paragraf {
+  font-size: 16px;
+  font-weight:500 ;
+  line-height: 24px ;
 }
 
 .team {
@@ -325,6 +335,7 @@ margin: 0 16px;
   */
 .with{
   max-width: 264px ;
+  margin-left: 16px;
 }
 
 /*.wdx {
@@ -441,6 +452,7 @@ height:40px;
     display: flex;
     flex-direction: column;
     gap: 72px;
+
   }
 /*.footer-container > :first-child {
   margin-right: 120px
@@ -508,6 +520,7 @@ height:40px;
 }
 .icon-button {
   margin-left: 16px; 
+
 }
 .info-list-windo{
   position: fixed;
@@ -761,6 +774,8 @@ fill: #F4F4FD;
   gap: 3.6px;
   width: 24px;
   height: 24px;
+  align-self: center;
+  margin-top: 7px;
 }
 .element-button {
   border-radius: 5px;
