@@ -718,6 +718,7 @@ fill: #F4F4FD;
   visibility: visible;
   pointer-events: auto;
 }
+
 @media ( max-width:320px ) {
    .list {
     opacity: 0;
@@ -784,5 +785,34 @@ width: 16px;
 height: 2.4px;
 
 background-color: rgba(47, 47, 55, 1);
+}
+.menu-mobail {
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.menu-podstyle {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    min-height: 95%;
+}
+
+.list-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.div-end  > .button-windo {
+position: static;
+}
+.div-end {
+  display: flex;
+  justify-content: end;
 }
 }
