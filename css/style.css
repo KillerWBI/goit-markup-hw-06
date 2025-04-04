@@ -851,4 +851,16 @@ justify-content: space-between;
   background-color: rgba(64, 75, 191, 1);
   border: none;
 }
+.windo-container {
+  width: 95%;
+}
+.privacy-lable {
+  display: flex;
+  align-items: center;
+}
+.privacy-link {
+
+margin: 0;
+}
+
 }
