@@ -926,5 +926,65 @@ margin: 0;
   font-weight: 700;
   line-height: 60px;
 }
+.icon-container {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+.main-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.li-list-content {
+  width: calc((100% - 72px) / 2);
+}
+.wdx {
+  width: 264px;
   
+}
+.team-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.ul-apps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.li-app {
+  width: calc((100% - 48px) / 2);
+}
+.menu-mobail{
+  position: fixed;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 24px;
+  padding-left: 108px;
+}
+.logo-down > .logo {
+  padding: 0px 0px 24px 0px ;
+}
+.with{
+  margin: 0px;
+}
+.form-style {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
 }
