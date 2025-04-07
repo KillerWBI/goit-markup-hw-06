@@ -89,7 +89,7 @@ color: #2e2f42;
 }
 .order{
   background-color: #2e2f42 ;
-  padding: 72px 52px;
+  padding: 72px 0px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -172,6 +172,7 @@ text-align: center;
 }
 .work{
   background-color: #FFFFFF;
+  width: 264px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
@@ -316,7 +317,7 @@ margin: 0 16px;
 .media{
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 9%;
   padding: 0;
 }
 .media-list {
@@ -645,7 +646,7 @@ fill: #F4F4FD;
     margin: 16px;
    }
    .work > img {
-    width: 100%;
+    width: 264px;
    }
    .apps-container > .textfre {
     text-align: start;
@@ -704,14 +705,12 @@ background-color: rgba(47, 47, 55, 1);
     background-color: white;
 }
 .menu-podstyle {
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    min-height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 24px 24px 40px 16px ;
 }
-
 .list-menu {
   display: flex;
   flex-direction: column;
@@ -724,6 +723,7 @@ position: static;
   display: flex;
   justify-content: end;
 }
+
 .list-menu-mail{
   display: flex;
   flex-direction: column;
@@ -743,9 +743,7 @@ position: static;
   gap: 0px;
 justify-content: space-between;
 }
-.nav-content-menu {
-  margin-bottom: 168px;
-}
+
 .content-address {
   margin-bottom: 48px;
 }
@@ -770,6 +768,24 @@ justify-content: space-between;
 .privacy-link {
 
 margin: 0;
+}
+.effective {
+  width: 216px;
+}
+.main-ul {
+  margin: 0px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.li-list-content {
+  width: 288px;
+}
+.team-card {
+  margin: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 }
 @media (min-width:321px) and (max-width:768px) {
