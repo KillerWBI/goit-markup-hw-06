@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./js/code.js">
+    <script src="./js/code.js"></script>
 </head>
 <body>
 
@@ -23,7 +23,7 @@
         <li ><a href="" class="menu pod-list pad-style-menu style-position">Contacts</a></li>
     </ul>
 </nav>
-<button class="button-open-menu">
+<button class="button-open-menu" data-modal2-open>
 <nav class="button-menu-close">
     <div class="element-button"></div>
     <div class="element-button"></div>
@@ -57,7 +57,7 @@
 <section class="order">
 <div class="container div-order">
     <h1 class="effective">Effective Solutions for Your Business</h1>
-    <button type="button" class="click">Order Service</button>
+    <button type="button" data-modal-open class="click">Order Service</button>
 </div>
 </section>
 
@@ -338,9 +338,9 @@
 </footer>
 
 
-<div class="info-list-windo backdrop">
+<div class="info-list-windo backdrop " data-modal>
     <div class="windo-container">
-<button type="button" class="button-windo">
+<button type="button" data-modal-close class="button-windo">
     <svg class="windo-icon" width="8" height="8">
         <use href="./images/icons.svg#icon-Vector-2"></use>
     </svg>
@@ -397,12 +397,12 @@
     </div>
 </div>
 
-<div class="menu-mobail backdrop "> 
+<div class="menu-mobail backdrop " data-modal2> 
    <div class="menu-podstyle">
 
 <div>
 <div class="div-end">
-    <button type="button" class="button-windo">
+    <button type="button" class="button-windo" data-modal2-close>
         <svg class="windo-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-Vector-2"></use>
         </svg>

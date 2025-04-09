@@ -635,6 +635,9 @@ fill: #F4F4FD;
   .section-two , .team , .section-portfolio , .down {
     padding: 96px 0px;
   }
+  .windo-container {
+    padding: 72px 16px 24px 16px;
+  }
   .button-open-menu{
     display: block;
     border: none;
@@ -835,6 +838,12 @@ margin: 0;
     display: flex;
     flex-direction: column;
   }
+  .privacy-lable > div {
+    display: flex;
+  }
+  .team, .section-portfolio , .section-two {
+padding: 96px 0px;
+  }
   .head-container {
     position: relative;
     display: flex;
@@ -938,7 +947,7 @@ margin: 0;
 .menu-mobail{
   position: fixed;
 }
-.textfre {
+ .apps-container > .textfre {
   text-align: start;
 }
 .down {
@@ -985,6 +994,7 @@ margin: 0;
   gap: 24px;
   padding: 0px;
   flex-direction: row;
+  margin: 0px;
 } 
 .ul-apps{
   display: flex;
@@ -996,7 +1006,6 @@ margin: 0;
   margin: 0px;
 }
 .textfre {
-  text-align: start;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -1004,6 +1013,9 @@ margin: 0;
   .logo-two{
     display: inline-block;
     margin-bottom: 16px;
+  }
+  .apps-container > .textfre {
+    text-align: start;
   }
   .wdx {
     width: calc((100% - 72px) / 4);
@@ -1064,5 +1076,8 @@ margin: 0;
 .with {
   width: auto;
   margin: 0px;
+}
+.privacy-lable > div {
+  display: flex;
 }
 }
