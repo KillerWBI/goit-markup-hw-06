@@ -628,8 +628,15 @@ fill: #F4F4FD;
   visibility: visible;
   pointer-events: auto;
 }
-
+.button-open-menu{
+  display: none;
+}
 @media ( max-width:320px ) {
+  .button-open-menu{
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
    .list {
     opacity: 0;
     visibility: hidden;
@@ -787,6 +794,15 @@ margin: 0;
   flex-wrap: wrap;
   justify-content: center;
 }
+.ul-apps {
+  margin: 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.li-app {
+  width: 288px;
+}
 }
 @media (min-width:321px) and (max-width:768px) {
 
@@ -794,9 +810,6 @@ margin: 0;
   .list-information{
     display: flex;
     gap:40px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
   }
   .pod-list {
     padding: 0px;
@@ -816,6 +829,7 @@ margin: 0;
     position: relative;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0 16px;
   }
   .first-element-menu {
@@ -862,6 +876,7 @@ margin: 0;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  margin: 0px;
 }
 .li-list-content {
   width: calc((100% - 72px) / 2);
@@ -876,16 +891,18 @@ margin: 0;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  margin: 0px;
 }
 .ul-apps {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 24px;
+  margin: 0px;
   justify-content: center;
 }
 .li-app {
-  width: calc((100% - 48px) / 2);
+  width: calc((100% - 56px) / 2);
 }
 .footer-container {
   display: flex;
@@ -893,7 +910,7 @@ margin: 0;
   flex-wrap: wrap;
   justify-content: start;
   gap: 24px;
-  padding-left: 108px;
+  width: 70%;
 }
 .logo-down > .logo {
   padding: 0px 0px 24px 0px ;
@@ -910,6 +927,14 @@ margin: 0;
 }
 .menu-mobail{
   position: fixed;
+}
+.textfre {
+  text-align: start;
+}
+.down {
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 }
 @media ((min-width:769px)) {
@@ -958,6 +983,13 @@ margin: 0;
   row-gap: 48px; 
   padding: 0px;
   flex-direction: row;
+  margin: 0px;
+}
+.textfre {
+  text-align: start;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
 }
   .logo-two{
     display: inline-block;
@@ -990,11 +1022,14 @@ margin: 0;
   display: flex;
   align-items: baseline;
   flex-direction: row;
-  gap: 80px;
   flex-wrap: wrap;
+  gap: 0px;
 }
 .footer-container > :first-child {
-  margin-right: 40px;
+  margin-right: 120px;
+}
+.input-list {
+  margin-left: 80px;
 }
 .li-list-content > .textfre {
   font-weight: 500;
