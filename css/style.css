@@ -632,6 +632,9 @@ fill: #F4F4FD;
   display: none;
 }
 @media ( max-width:320px ) {
+  .section-two , .team , .section-portfolio , .down {
+    padding: 96px 0px;
+  }
   .button-open-menu{
     display: block;
     border: none;
@@ -648,6 +651,9 @@ fill: #F4F4FD;
     visibility: hidden;
     pointer-events: none;
     position: absolute;
+   }
+   .media-teg {
+    justify-content: space-between;
    }
    .logo {
     margin: 16px;
@@ -721,7 +727,8 @@ background-color: rgba(47, 47, 55, 1);
 .list-menu {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 40px;
+  margin-top: 24px;
 }
 .div-end  > .button-windo {
 position: static;
@@ -740,6 +747,9 @@ position: static;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
+}
+.pod-list {
+  padding: 0px;
 }
 .mail {
   font-weight: 500;
