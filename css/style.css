@@ -131,11 +131,9 @@ color: #2e2f42;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
-
 .click:hover {
   background-color: #404BBF;
 }
-
 .click:focus {
   background-color: #404BBF;
 }
@@ -438,6 +436,9 @@ height:40px;
   border: none;
   border-radius: 4px;
 }
+.button-form:hover {
+  background-color: #404BBF;
+}
 .icon-button {
   margin-left: 16px;
 
@@ -711,6 +712,7 @@ fill: #F4F4FD;
   visibility: hidden;
   position: absolute;
 }
+
 .button-menu-close {
   display: flex;
   flex-direction: column;
