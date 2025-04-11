@@ -649,6 +649,7 @@ fill: #F4F4FD;
     padding: 72px 16px 24px 16px;
   }
   .button-open-menu{
+    padding: 0px;
     display: block;
     border: none;
     background-color: transparent;
@@ -713,11 +714,12 @@ fill: #F4F4FD;
 .button-menu-close {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 3.6px;
   width: 24px;
   height: 24px;
   align-self: center;
-  align-content: center;
+  align-content: end;
   justify-content: center;
 }
 
