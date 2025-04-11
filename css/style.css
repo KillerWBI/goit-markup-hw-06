@@ -102,6 +102,7 @@ color: #2e2f42;
 @media (min-resolution: 192dpi) {
   .order {
     background-image: url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
   }
 }
 
@@ -667,9 +668,7 @@ fill: #F4F4FD;
    .media-teg {
     justify-content: space-between;
    }
-   .logo {
-    margin-bottom: 16px;
-   }
+
    .with {
     margin: 0px;
    }
@@ -718,7 +717,12 @@ fill: #F4F4FD;
   width: 24px;
   height: 24px;
   align-self: center;
-  margin-top: 7px;
+  align-content: center;
+  justify-content: center;
+}
+
+.head-container {
+  padding: 16px;
 }
 .element-button {
   border-radius: 5px;
@@ -902,6 +906,9 @@ padding: 96px 0px;
 .order {
   padding: 112px 0px;
 }
+.li-list-content > .textfre {
+  text-align: start;
+}
 .effective {
   font-size: 56px;
   font-weight: 700;
@@ -912,16 +919,29 @@ padding: 96px 0px;
   visibility: hidden;
   position: absolute;
 }
+.container {
+  padding: 0px 16px;
+}
 .main-ul {
   display: flex;
+  width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 24px;
-  justify-content: center;
+  gap: 0px;
   margin: 0px;
 }
+.item-1 , .item-3 {
+  margin-right: 24px;
+}
+.item-1 , .item-2 {
+  padding-bottom: 72px;
+}
 .li-list-content {
-  width: calc((100% - 72px) / 2);
+  width: calc((100% - 24px) / 2);
+}
+  .team-card > .item-1, .team-card > .item-2  {
+  padding-bottom: 0px;
+  margin-bottom: 64px;
 }
 .wdx {
   width: 264px;
@@ -931,7 +951,7 @@ padding: 96px 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 0px;
   justify-content: center;
   margin: 0px;
 }
@@ -939,12 +959,16 @@ padding: 96px 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 0px;
   margin: 0px;
   justify-content: center;
 }
 .li-app {
-  width: calc((100% - 56px) / 2);
+  width: calc((100% - 24px) / 2);
+}
+.ul-apps > .item-1, .item-3, .item-5 {
+margin-right: 24px;
+padding: 0px;
 }
 .footer-container {
   display: flex;
